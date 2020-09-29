@@ -27,8 +27,8 @@ class InertiaJsPreset extends Preset
     {
         return array_merge([
             '@babel/plugin-syntax-dynamic-import' => '^7.2.0',
-            '@inertiajs/inertia' => '^0.1.0',
-            '@inertiajs/inertia-vue' => '^0.1.0',
+            '@inertiajs/inertia' => '^0.3.4',
+            '@inertiajs/inertia-vue' => '^0.2.4',
             'vue' => '^2.5.17',
             'vue-template-compiler' => '^2.6.10',
         ], $packages);
@@ -37,7 +37,7 @@ class InertiaJsPreset extends Preset
     protected static function updateComposerArray(array $packages)
     {
         return array_merge([
-            'inertiajs/inertia-laravel' => '^0.2',
+            'inertiajs/inertia-laravel' => '^0.3',
         ], $packages);
     }
 
