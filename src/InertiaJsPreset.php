@@ -37,7 +37,7 @@ class InertiaJsPreset extends Preset
     protected static function updateComposerArray(array $packages)
     {
         return array_merge([
-            'inertiajs/inertia-laravel' => '^0.3',
+            'inertiajs/inertia-laravel' => '^0.2',
         ], $packages);
     }
 
